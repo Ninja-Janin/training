@@ -10,7 +10,7 @@ gulp.task('default', ['sass', 'watch', 'server'] );
 gulp.task('reload', reload);
 
 gulp.task('sass', function () {
-  return gulp.src('./app/assets/main.scss')
+  return gulp.src('./app/assets/scss/style.scss')
     .pipe(glob())
     .pipe(sass().on('error', sass.logError))
     .pipe(rename("style.css"))
@@ -21,6 +21,7 @@ gulp.task('reload:sass', ['sass'], reload)
 gulp.task('watch', function() {
   gulp.watch('./app/assets/**/*.scss', ['reload:sass'])
   gulp.watch('./index.html', ['reload'])
+  gulp.watch('./app/src/index.js', ['reload'])
 })
 
 gulp.task('server',function(){
