@@ -2,4 +2,36 @@
    Base
    =========================== */
 body {
-  color: #df2e30; }
+  margin: -29px 0 0 0; }
+
+/* ==|====================
+   Layout/Constrained
+   ======================= */
+.l-constrained {
+  max-width: pxtoem(1140, 16);
+  padding: 0 pxtoem(20, 16);
+  margin: 0 auto; }
+
+.l-header img {
+  width: 100%; }
+
+.l-header__title {
+  position: absolute;
+  left: 43%;
+  top: 18%; }
+
+.l-content {
+  height: 400px;
+  background-color: grey;
+  margin-top: -4px;
+  position: relative; }
+  .l-content__article {
+    width: 70%;
+    height: 190px;
+    background-color: #8d8d9a;
+    border: 5px solid white;
+    left: 13%;
+    position: absolute;
+    top: 7%; }
+  .l-content__title {
+    text-align: center; }

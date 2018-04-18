@@ -1,2 +1,12 @@
-.l-header{
+.l-header {
+  img {
+    width: 100%;
+  }
+
+  &__title {
+    position: absolute;
+    left: 43%;
+    top: 18%;
+  }
+
 }
