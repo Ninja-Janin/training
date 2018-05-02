@@ -1,0 +1,33 @@
+.l-content{
+  height: 501px;
+  background-color: grey;
+  margin-top: -4px;
+  position: relative;
+
+  &__article {
+    position: absolute;
+    width: 1000px;
+    height: 401px;
+    background-color: #8d8d9a;
+    border: 5px solid white;
+    left: 13%;
+    top: 7%;
+  }
+
+  & img {
+	  width: 100%;
+  }
+
+  & li {
+	  display: -webkit-inline-box;
+  }
+	
+  &__container {
+	  height: 159px;
+	  width: 291px;
+  }
+
+  &__title {
+   text-align: center;
+  }
+}
