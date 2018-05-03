@@ -13,32 +13,45 @@ body {
   margin: 0 auto; }
 
 .l-content {
-  height: 501px;
-  background-color: grey;
+  height: auto;
   margin-top: -4px;
-  position: relative; }
-  .l-content__article {
-    position: absolute;
-    width: 1000px;
-    height: 401px;
+  margin-left: -54px;
+  padding: 100px;
+  background-color: grey; }
+  .l-content-article {
+    left: 0;
+    padding: 20px;
     background-color: #8d8d9a;
     border: 5px solid white;
-    left: 13%;
-    top: 7%; }
-  .l-content img {
+    width: 100%;
+    height: auto;
+    margin: auto; }
+  .l-content-container {
+    height: auto;
     width: 100%; }
   .l-content li {
-    display: -webkit-inline-box; }
-  .l-content__container {
-    height: 159px;
-    width: 291px; }
-  .l-content__title {
+    width: 30.3333%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px; }
+  .l-content ul {
+    list-style-type: none; }
+  .l-content-title {
     text-align: center; }
+  .l-content img {
+    width: 100%;
+    height: auto; }
 
-.l-header img {
-  width: 100%; }
-
-.l-header__title {
-  position: absolute;
-  left: 43%;
-  top: 18%; }
+.l-header {
+  position: relative; }
+  .l-header img {
+    width: 100%;
+    height: auto; }
+  .l-header-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    left: 0;
+    top: 18%;
+    font-family: Arial, Helvetica, sans-serif; }

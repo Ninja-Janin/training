@@ -1,33 +1,43 @@
 .l-content{
-  height: 501px;
-  background-color: grey;
+  height: auto;
   margin-top: -4px;
-  position: relative;
+  margin-left: -54px;
+  padding: 100px;
+  background-color: grey;
 
-  &__article {
-    position: absolute;
-    width: 1000px;
-    height: 401px;
+  &-article {
+	left: 0;
+	padding: 20px;
     background-color: #8d8d9a;
     border: 5px solid white;
-    left: 13%;
-    top: 7%;
+	width: 100%;
+    height: auto;
+	margin: auto;
   }
 
-  & img {
+  &-container {
+	  height: auto;
 	  width: 100%;
   }
 
   & li {
-	  display: -webkit-inline-box;
-  }
-	
-  &__container {
-	  height: 159px;
-	  width: 291px;
+	  width: 30.3333%;
+	  display: inline-block;
+	  vertical-align: top;
+	  margin: 5px;
   }
 
-  &__title {
+  & ul{
+	  list-style-type: none;
+  }
+
+  &-title {
    text-align: center;
   }
+
+  & img {
+	  width: 100%;
+	  height: auto;
+  }
+
 }
